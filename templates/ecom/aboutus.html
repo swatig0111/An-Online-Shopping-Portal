@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>E-Commerce</title>
+
+  <title>E-Commerce</title>
+  <style media="screen">
+    .footer{
+      position: fixed;
+    }
+  </style>
+</head>
+
+<body style="background-color: #B3E5FC;">
+  {%if request.user.is_authenticated%}
+    {% include "ecom/customer_navbar.html" %}
+  {%else%}
+    {% include "ecom/navbar.html" %}
+  {%endif%}
+  <br><br><br>
+<h3 style="text-align:center;">About Us</h3>
+<h4 class="about_heading text-capitalize font-weight-bold mt-4"><strong>Hello Strikers!</strong></h4>
+                    <p class="text-muted mt-3">Let’s get going to dig out the best products in your game & make ‘em available right at your doorstep. We will be glad to serve you in any city in India & speedily, so that you enjoy your product in the coming weekend! All this, with no shipping charges if you purchase above Rs.1000.</p>
+
+                    <p class="text-muted mt-3"> Scout through your favourite brands with latest technologies. Just click & be its proud owner, at the best available price in the market. Come, help us help you to fly high with your new & improved game with high quality sportsgear!</p>
+                    <p class="text-muted mt-3">Right from Racquets, Balls, Bats, Clubs to Shoes, Caps & other thousands of accessories, a wonderful selection awaits you to take a pick from. Give your wishlist to us & we will get you what you want.</p>
+                    <p class="text-muted mt-3">Secure payment methods with seamless transactions & a commited helpline for all your queries.<p>
+                    <p class="text-muted mt-3">Hey kids, don't despair!! Check out our Juniors section for a plethora of goods , just to suit you! There’s something for every sportsman in here.<p>
+                    <p><strong>Enjoy your game..!!</strong></p>
+                    <p><strong>-Team SportsElite.in</strong></p>
+  {% include "ecom/footer.html" %}
+</body>
+</html>
