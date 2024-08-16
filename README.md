@@ -86,3 +86,15 @@ Follow these steps to set up the project:
 ### Screenshots 
 1. Home Page :
    
+   ![Home Page](Screenshots/homepage.png)
+
+2. Customer home page:
+
+  ![Home Page](Screenshots/homepage.png)
+
+3. Admin Dashboard:
+
+  ![Home Page](Screenshots/homepage.png)
+   
+   
+   
