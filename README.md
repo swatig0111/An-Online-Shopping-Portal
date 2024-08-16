@@ -90,11 +90,11 @@ Follow these steps to set up the project:
 
 2. Customer home page:
 
-  ![Home Page](Screenshots/homepage.png)
+  ![Home Page](Screenshots/customerhome.png)
 
 3. Admin Dashboard:
 
-  ![Home Page](Screenshots/homepage.png)
+  ![Home Page](Screenshots/admindash.png)
    
    
    
